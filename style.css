@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 209, 209);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 210px;
+    height: 60px;
+    background-color: #555555;
+    color: yellow;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px #000000;
+    margin-top: 200px;
+}
+.hours,
+.minutes,
+.seconds{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid yellow;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #000000;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.dots{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
